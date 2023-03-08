@@ -20,29 +20,29 @@ public class A_FirstTestNGTestCase {
         Thread.sleep(1000);
     }
 
-//    @Test (priority = 2)
-//    void registerUser() throws InterruptedException
-//    {
-//        System.out.println("Click on the register button ");
-//        driver.findElement(By.xpath("//a[@class='ico-register']")).click();
-//        //driver.findElement(By.xpath(""));
-//
-//        driver.findElement(By.xpath("//input[@id='gender-male']")).click();
-//        driver.findElement(By.xpath("//input[@id='FirstName']")).sendKeys("Chetan");
-//        driver.findElement(By.xpath("//input[@id='LastName']")).sendKeys("Valand");
-//        driver.findElement(By.xpath("//select[@name='DateOfBirthDay']")).sendKeys("1");
-//        driver.findElement(By.xpath("//select[@name='DateOfBirthMonth']")).sendKeys("April");
-//        driver.findElement(By.xpath("//select[@name='DateOfBirthYear']")).sendKeys("1989");
-//        driver.findElement(By.xpath("//input[@id='Email']")).sendKeys("unifytester001@gmail.com");
-//        driver.findElement(By.xpath("//input[@id='Company']")).sendKeys("Unify Testing");
-//        driver.findElement(By.xpath("//input[@id='Newsletter']")).click();
-//        Thread.sleep(1000);
-//        driver.findElement(By.xpath("//input[@id='Password']")).sendKeys("Tester001!");
-//        driver.findElement(By.xpath("//input[@id='ConfirmPassword']")).sendKeys("Tester001!");
-//        Thread.sleep(1000);
-//        driver.findElement(By.xpath("//button[@id='register-button']")).click();
-//
-//    }
+    @Test (priority = 2)
+    void registerUser() throws InterruptedException
+    {
+        System.out.println("Click on the register button ");
+        driver.findElement(By.xpath("//a[@class='ico-register']")).click();
+        //driver.findElement(By.xpath(""));
+
+        driver.findElement(By.xpath("//input[@id='*gender-male']")).click();
+        driver.findElement(By.xpath("//input[@id='FirstName']")).sendKeys("Chetan");
+        driver.findElement(By.xpath("//input[@id='LastName']")).sendKeys("Valand");
+        driver.findElement(By.xpath("//select[@name='DateOfBirthDay']")).sendKeys("1");
+        driver.findElement(By.xpath("//select[@name='DateOfBirthMonth']")).sendKeys("April");
+        driver.findElement(By.xpath("//select[@name='DateOfBirthYear']")).sendKeys("1989");
+        driver.findElement(By.xpath("//input[@id='Email']")).sendKeys("unifytester001@gmail.com");
+        driver.findElement(By.xpath("//input[@id='Company']")).sendKeys("Unify Testing");
+        driver.findElement(By.xpath("//input[@id='Newsletter']")).click();
+        Thread.sleep(1000);
+        driver.findElement(By.xpath("//input[@id='Password']")).sendKeys("Tester001!");
+        driver.findElement(By.xpath("//input[@id='ConfirmPassword']")).sendKeys("Tester001!");
+        Thread.sleep(1000);
+        driver.findElement(By.xpath("//button[@id='register-button']")).click();
+
+    }
 
 
     @Test (priority = 3)
